@@ -1,0 +1,54 @@
+.posts__item {
+    display: flex;
+    position: relative;
+    font-family: cursive;
+    font-size: 30px;
+    background: rgb(229, 226, 226);
+    list-style-type: none;
+}
+.posts__ava {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0px 15px;
+    background: url(../Post/ava.gif);
+    border-radius: 50%;
+}
+.posts__like {
+    position: absolute;
+    top: 14px;
+    left: 80%;
+    cursor: pointer;
+}
+.posts__dislike {
+    position: absolute;
+    top: 18px;
+    left: 89%;
+    cursor: pointer;
+}
+.like {
+    width: 35px;
+    height: 35px;
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.dislike {
+    transform: rotate(175deg);
+    width: 35px;
+    height: 35px;
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.posts__number {
+    position: absolute;
+    top: 8px;
+    left: 86%;
+}
+.like:hover {
+    filter: none;
+}
+.dislike:hover {
+    filter: none;
+}

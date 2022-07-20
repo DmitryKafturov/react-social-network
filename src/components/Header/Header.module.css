@@ -1,0 +1,11 @@
+.head {
+    grid-area: h;
+    height: 100px;
+    background: url(./imeges/background.jpeg);
+}
+.icon {
+    width: 120px;
+    height: 100%;
+
+    background: url(./imeges/odnoklassniki-64x64.png) no-repeat center;
+}

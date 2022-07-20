@@ -1,0 +1,10 @@
+.friends {
+    font-family: "Dosis", sans-serif;
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+.friends__title {
+    color: white;
+    margin-left: 40px;
+}

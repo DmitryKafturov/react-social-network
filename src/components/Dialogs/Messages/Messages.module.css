@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.messages {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 8px;
+}
+.container {
+    display: flex;
+}
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    height: 60px;
+    width: 100%;
+    background: rgb(236, 227, 227);
+    box-shadow: 0px 0px 10px 0px rgb(12 12 129);
+    border: none;
+}
+.text:focus {
+    box-shadow: 0px 0px 23px 0px rgb(12 12 129);
+}
+.button_text {
+    background: rgb(255, 145, 0);
+    box-shadow: 0px 0px 10px 0px rgb(255, 145, 0);
+
+    color: rgb(236, 227, 227);
+    border: none;
+}
+.button_text:hover {
+    box-shadow: 0px 0px 23px 0px rgb(255, 145, 0);
+}
+.button_text:active {
+    background: rgb(231, 153, 49);
+    color: royalblue;
+}

@@ -1,0 +1,73 @@
+.message {
+    display: flex;
+    gap: 30px;
+
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    list-style-type: none;
+    box-shadow: 0px 0px 10px 0px rgb(12, 12, 129);
+    background: rgb(236, 227, 227);
+}
+.ava {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.message__ava {
+    background: url(../mariy.jpeg) no-repeat center;
+}
+
+.message__my_ava {
+    background: url(../ava.gif) no-repeat center;
+}
+.message__name {
+    color: rgb(255, 145, 0);
+    text-align: center;
+}
+
+.messages__item {
+    display: flex;
+    gap: 20px;
+
+    font-family: cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    list-style-type: none;
+    box-shadow: 0px 0px 10px 0px rgb(12, 12, 129);
+    background: rgb(236, 227, 227);
+}
+.ava {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+.message__ava {
+    background: url(../mariy.jpeg) no-repeat center;
+}
+
+.message__my_ava {
+    background: url(../ava.gif) no-repeat center;
+}
+.message__name {
+    color: rgb(255, 145, 0);
+    text-align: center;
+}
+.message__text {
+    align-self: center;
+    overflow-wrap: anywhere;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}

@@ -1,0 +1,22 @@
+.data {
+    display: flex;
+    align-items: center;
+}
+.data__ava {
+    width: 65px;
+    height: 65px;
+    padding: 0px 20px 0px;
+    background: url(../ProfilePost/Post/ava.gif) no-repeat center;
+}
+.data__prof {
+    font-family: "Dosis", sans-serif;
+}
+.data__name {
+    color: rgb(255, 145, 0);
+}
+.data__list {
+    padding: 0;
+}
+.data__item {
+    list-style-type: none;
+}

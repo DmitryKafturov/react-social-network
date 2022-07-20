@@ -1,0 +1,18 @@
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-gap-override: inherit;
+    height: 100%;
+    padding-left: 8px;
+}
+
+.person__item:focus {
+    color: rgb(255, 145, 0);
+}
+.person a {
+    text-decoration: none;
+}
+.person a:focus {
+    color: rgb(145, 145, 201);
+}

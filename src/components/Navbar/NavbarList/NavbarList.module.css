@@ -1,0 +1,18 @@
+.list__item a {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: seashell;
+}
+.list__item {
+    list-style-type: none;
+}
+.list__item :hover {
+    color: rgb(255, 145, 0);
+}
+.list__list :last-child {
+    margin-top: 15px;
+}
+.list__link :focus {
+    color: rgb(255, 145, 0);
+}

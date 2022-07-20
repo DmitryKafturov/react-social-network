@@ -1,0 +1,26 @@
+.list {
+}
+.list__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.list__ava {
+}
+.ava {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: rgb(255, 145, 0);
+}
+.list__link {
+    text-decoration: none;
+    color: seashell;
+}
+/* .list__link:focus,
+:hover {
+    color: rgb(255, 145, 0);
+} */
